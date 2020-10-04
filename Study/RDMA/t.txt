@@ -1,0 +1,2 @@
+00000002.00003d84 000072c2 Tue Jul 11 2017 06:52:58 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a32: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type : Pending
+00000002.00003d84 000072c2 Tue Jul 11 2017 06:52:58 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a32: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type : Sucess

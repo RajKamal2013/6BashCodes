@@ -1,0 +1,302 @@
+Tue Jul11 2017 06:52:58-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:52:58-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:52:59-07:00 DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot restore, 00000000-0000-0000-0000-000000000000)
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:00-07:00
+Tue Jul11 2017 06:53:00-07:00
+Tue Jul11 2017 06:53:00-07:00
+Tue Jul11 2017 06:53:00-07:00 restore
+Tue Jul11 2017 06:53:00-07:00
+Tue Jul11 2017 06:53:00-07:00 06:52:59
+Tue Jul11 2017 06:53:00-07:00
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV::ConflictOps: endOp purge OK
+Tue Jul11 2017 06:53:00-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Inode was not found
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:00-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Inode was not found
+Tue Jul11 2017 06:53:00-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:00-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:00-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:01-07:00 DEBUG: VOPL::CreateJunction: JobId = 40d519f7-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:01-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Inode was not found
+Tue Jul11 2017 06:53:01-07:00 ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+Tue Jul11 2017 06:53:01-07:00 ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+Tue Jul11 2017 06:53:01-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Inode was not found
+Tue Jul11 2017 06:53:01-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 2858 failed to get dsid
+Tue Jul11 2017 06:53:02-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:02-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:02-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Inode was not found
+Tue Jul11 2017 06:53:02-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:02-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:02-07:00 DEBUG: VOPL::DeleteJunction: JobId = 41b2e750-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:03-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:03-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:03-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:03-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:03-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:03-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:03-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:04-07:00 DEBUG: VOPL::CreateJunction: JobId = 4284f939-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:04-07:00 ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+Tue Jul11 2017 06:53:04-07:00 860 (0x82683b800)]: Tran: application aborting: TID <1,2465,2465> 'nfs_servers modify', flags 0.
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:04-07:00 860 (0x82683b800)]: Tran: application aborting: TID <1,2466,2466> 'job_manager job enqueue unique', flags 0.
+Tue Jul11 2017 06:53:04-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:04-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:04-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:04-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:04-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:05-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:05-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:05-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:05-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:05-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:06-07:00 DEBUG: VOPL::CreateJunction: JobId = 43a56bc0-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:06-07:00 ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_local/next_point".
+Tue Jul11 2017 06:53:06-07:00 ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_local/next_point".
+Tue Jul11 2017 06:53:07-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:07-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:07-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:07-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:07-07:00 DEBUG: VOPL::DeleteJunction: JobId = 448903a6-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:07-07:00 ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+Tue Jul11 2017 06:53:07-07:00 860 (0x82683c700)]: Tran: application aborting: TID <1,2467,2467> 'nfs_servers modify', flags 0.
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:07-07:00 860 (0x82683c700)]: Tran: application aborting: TID <1,2468,2468> 'job_manager job enqueue unique', flags 0.
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:07-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:08-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:08-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:08-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:08-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:08-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:08-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:09-07:00 DEBUG: VOPL::CreateJunction: JobId = 454e4df2-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:09-07:00 ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+Tue Jul11 2017 06:53:09-07:00 860 (0x826838b00)]: Tran: application aborting: TID <1,2469,2469> 'nfs_servers modify', flags 0.
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:09-07:00 860 (0x826838b00)]: Tran: application aborting: TID <1,2470,2470> 'job_manager job enqueue unique', flags 0.
+Tue Jul11 2017 06:53:09-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:09-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:09-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:09-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:09-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:10-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:10-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volAccessType
+Tue Jul11 2017 06:53:10-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:10-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:10-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:10-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volAccessType
+Tue Jul11 2017 06:53:10-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:10-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:10-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:11-07:00 ERR: rdb_tran_glue: job_record_data: modified 1 out of 2 rows that did not change the database - unnecessary transaction for label=job_manager job_sched check claimable
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:11-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:11-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:11-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 2858 failed to get dsid
+Tue Jul11 2017 06:53:12-07:00 DEBUG: VOPL::CreateJunction: JobId = 472cd8fe-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:12-07:00 ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/fv".
+Tue Jul11 2017 06:53:12-07:00 ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/fv".
+Tue Jul11 2017 06:53:12-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:12-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:12-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:12-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:13-07:00 DEBUG: VOPL::DeleteJunction: JobId = 47ffa36f-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:13-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:14-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:14-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:14-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:14-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:14-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:14-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:14-07:00 DEBUG: VOPL::CreateJunction: JobId = 48c854bb-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:15-07:00 WARNING: VOPL::DbladeZapiServerConnection: volJunctionCreate 7141 Retrying create on member 1040, not 0x0000040f
+Tue Jul11 2017 06:53:15-07:00 ERR: VOPL::junction: junction: The Create Junction operation will be automatically performed against a different FlexGroup constituent volume.
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:15-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot create)
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot create)
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot create, 00000000-0000-0000-0000-000000000000)
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:15-07:00
+Tue Jul11 2017 06:53:15-07:00
+Tue Jul11 2017 06:53:15-07:00
+Tue Jul11 2017 06:53:15-07:00 create
+Tue Jul11 2017 06:53:15-07:00
+Tue Jul11 2017 06:53:15-07:00 06:53:15
+Tue Jul11 2017 06:53:15-07:00
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot create)
+Tue Jul11 2017 06:53:15-07:00 DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+Tue Jul11 2017 06:53:16-07:00 DEBUG: OLV::ConflictOps: endOp purge OK
+Tue Jul11 2017 06:53:16-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:16-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:16-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:16-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:16-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:16-07:00 DEBUG: VOPL::CreateJunction: JobId = 49f75b08-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:16-07:00 ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_remote/orig_point".
+Tue Jul11 2017 06:53:16-07:00 ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_remote/orig_point".
+Tue Jul11 2017 06:53:17-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:17-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:17-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:17-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:18-07:00 DEBUG: VOPL::DeleteJunction: JobId = 4ac44056-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:18-07:00 ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+Tue Jul11 2017 06:53:18-07:00 860 (0x828fe8600)]: Tran: application aborting: TID <1,2483,2483> 'nfs_servers modify', flags 0.
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:18-07:00 860 (0x828fe8600)]: Tran: application aborting: TID <1,2484,2484> 'job_manager job enqueue unique', flags 0.
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:18-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:18-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:18-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:18-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:53:18-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:53:18-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:18-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:19-07:00 DEBUG: VOPL::CreateJunction: JobId = 4b8f957e-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:53:19-07:00 WARNING: VOPL::DbladeZapiServerConnection: volJunctionCreate 7141 Retrying create on member 1040, not 0x0000040f
+Tue Jul11 2017 06:53:19-07:00 ERR: VOPL::junction: junction: The Create Junction operation will be automatically performed against a different FlexGroup constituent volume.
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:19-07:00 ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+Tue Jul11 2017 06:53:19-07:00 860 (0x82683b800)]: Tran: application aborting: TID <1,2485,2485> 'nfs_servers modify', flags 0.
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:19-07:00 860 (0x82683b800)]: Tran: application aborting: TID <1,2486,2486> 'job_manager job enqueue unique', flags 0.
+Tue Jul11 2017 06:53:19-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+Tue Jul11 2017 06:53:19-07:00 DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:20-07:00 DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot restore, 00000000-0000-0000-0000-000000000000)
+Tue Jul11 2017 06:53:21-07:00 WARNING: VOPL::DbladeZapiServerConnection: Unavailable volumes returned by D-Blade volName: snap_test_fg__0004, vsUUID: b3493c6b-663b-11e7-8749-000c2964495e UUID: d8b67b32-663d-11e7-a028-000c29589841 Error: 13158.
+Tue Jul11 2017 06:53:21-07:00 DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+Tue Jul11 2017 06:53:21-07:00
+Tue Jul11 2017 06:53:21-07:00
+Tue Jul11 2017 06:53:21-07:00
+Tue Jul11 2017 06:53:21-07:00 restore
+Tue Jul11 2017 06:53:21-07:00
+Tue Jul11 2017 06:53:21-07:00 06:53:20
+Tue Jul11 2017 06:53:21-07:00
+Tue Jul11 2017 06:53:21-07:00 DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot restore)
+Tue Jul11 2017 06:53:21-07:00 DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+Tue Jul11 2017 06:53:21-07:00 DEBUG: OLV::ConflictOps: endOp purge OK
+Tue Jul11 2017 06:53:52-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Internal Error
+Tue Jul11 2017 06:53:52-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Internal Error
+Tue Jul11 2017 06:53:52-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 2858 failed to get dsid
+Tue Jul11 2017 06:53:52-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:53:52-07:00 WARNING: VOPL::DbladeZapiServerConnection: Not found volume <b3493c6b-663b-11e7-8749-000c2964495e, snap_test_fg__0004> in cache for: 172.31.104.133 _isReachable:true volumeList is empty _lastVserverName:vs0 _lastVolName:snap_test_fg__0004
+Tue Jul11 2017 06:53:53-07:00 ERR: rdb_tran_glue: job_record_data: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=job_manager job tx loop
+Tue Jul11 2017 06:54:22-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Internal Error
+Tue Jul11 2017 06:54:22-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+Tue Jul11 2017 06:54:22-07:00 WARNING: VOPL::DbladeZapiServerConnection: fillVolAttrs 3486 failed to get remote-cache-used
+Tue Jul11 2017 06:54:22-07:00 DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+Tue Jul11 2017 06:54:22-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:23-07:00 DEBUG: VOPL::CreateJunction: JobId = 7189667a-6640-11e7-874a-000c2964495e
+Tue Jul11 2017 06:54:23-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:24-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:25-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:26-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:27-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:28-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:29-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:30-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:31-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:32-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:33-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:34-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:36-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:37-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:38-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:39-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:40-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:41-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:42-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:43-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:44-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:45-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:46-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:47-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:48-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:49-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:50-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:51-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:52-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:53-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:53-07:00 DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+Tue Jul11 2017 06:54:53-07:00 WARNING: VOPL::DbladeZapiServerConnection: getFileInodeInfo 7288 Internal Error
+Tue Jul11 2017 06:54:53-07:00 ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+Tue Jul11 2017 06:54:53-07:00 ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+   

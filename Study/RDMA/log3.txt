@@ -1,0 +1,18 @@
+Tue Jul11 2017 06:52:50 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/orig_point :: Pending
+Tue Jul11 2017 06:52:51 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/orig_point :: Error: Volume "fv" on Vserver "vs0" is mounted at "/fv".
+Tue Jul11 2017 06:52:51 -07:00 unmount -volume fv -vserver vs0 :: Pending
+Tue Jul11 2017 06:52:52 -07:00 unmount -volume fv -vserver vs0 :: Success
+Tue Jul11 2017 06:52:52 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/orig_point :: Pending
+Tue Jul11 2017 06:52:54 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/orig_point :: Success
+Tue Jul11 2017 06:52:54 -07:00 snapshot create -volume snap_test_fg -vserver vs0 -snapshot snap1 :: Pending
+Tue Jul11 2017 06:52:54 -07:00 snapshot create -volume snap_test_fg -vserver vs0 -snapshot snap1 :: Success
+Tue Jul11 2017 06:52:54 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Pending
+Tue Jul11 2017 06:52:56 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Error: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_local/orig_point".
+Tue Jul11 2017 06:52:56 -07:00 unmount -volume fv -vserver vs0 :: Pending
+Tue Jul11 2017 06:52:57 -07:00 unmount -volume fv -vserver vs0 :: Success
+Tue Jul11 2017 06:52:57 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Pending
+Tue Jul11 2017 06:52:59 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Success
+Tue Jul11 2017 06:52:59 -07:00 snapshot restore -volume snap_test_fg -vserver vs0 -snapshot snap1 :: Pending
+Tue Jul11 2017 06:53:00 -07:00 snapshot restore -volume snap_test_fg -vserver vs0 -snapshot snap1 :: Success
+Tue Jul11 2017 06:53:00 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Pending
+Tue Jul11 2017 06:53:02 -07:00 mount -volume fv -vserver vs0 -junction-path /snap_test_fg/subdir_local/next_point :: Error: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".

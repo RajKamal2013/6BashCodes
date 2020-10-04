@@ -1,0 +1,302 @@
+00000002.00003d84 000072c2 Tue Jul 11 2017 06:52:58 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a32: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003d85 000072c2 Tue Jul 11 2017 06:52:58 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a32: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003d86 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a32: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003d8c 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003d8d 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot restore)
+00000002.00003d8e 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot restore)
+00000002.00003d8f 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003d90 000072c2 Tue Jul 11 2017 06:52:59 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot restore, 00000000-0000-0000-0000-000000000000)
+00000002.00003d91 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003d92 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]   row 0:
+00000002.00003d93 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]      vs: vs0
+00000002.00003d94 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]     vol: snap_test_fg
+00000002.00003d95 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]      op: snapshot restore
+00000002.00003d96 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]      id: 3fbb9445-6640-11e7-874a-000c2964495e
+00000002.00003d97 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]      ts: 7/11/2017 06:52:59
+00000002.00003d98 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103]     job: 00000000-0000-0000-0000-000000000000
+00000002.00003d99 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot restore)
+00000002.00003d9a 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+00000002.00003d9b 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a43: DEBUG: OLV::ConflictOps: endOp purge OK
+00000002.00003d9d 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a44: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Inode was not found
+00000002.00003d9f 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003da0 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Inode was not found
+00000002.00003da1 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003da2 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003da3 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003da4 00007378 Tue Jul 11 2017 06:53:00 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003da5 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000a46: DEBUG: VOPL::CreateJunction: JobId = 40d519f7-6640-11e7-874a-000c2964495e
+00000002.00003da6 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000a46: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Inode was not found
+00000002.00003da7 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000a46: ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+00000002.00003da8 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000a46: ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+00000002.00003da9 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a48: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Inode was not found
+00000002.00003daa 00007378 Tue Jul 11 2017 06:53:01 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a48: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 2858 failed to get dsid
+00000002.00003dab 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a45: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dae 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a4a: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003daf 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a4a: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Inode was not found
+00000002.00003db0 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a4a: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003db1 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a4a: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003db2 00007378 Tue Jul 11 2017 06:53:02 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: VOPL::DeleteJunction: JobId = 41b2e750-6640-11e7-874a-000c2964495e
+00000002.00003db6 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003db7 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003db8 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003db9 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dba 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003dbb 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+00000002.00003dbc 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a4b: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dbd 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a4a: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dc0 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dc1 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003dc2 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003dc3 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003dc4 00007378 Tue Jul 11 2017 06:53:03 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dc8 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: VOPL::CreateJunction: JobId = 4284f939-6640-11e7-874a-000c2964495e
+00000002.00003dcb 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dcc 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003dcd 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+00000002.00003dce 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683b800)]: Tran: application aborting: TID <1,2465,2465> 'nfs_servers modify', flags 0.
+00000002.00003dcf 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dd0 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683b800)]: Tran: application aborting: TID <1,2466,2466> 'job_manager job enqueue unique', flags 0.
+00000002.00003dd1 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003dd2 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dd3 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003dd4 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+00000002.00003dd5 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000a5e: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003dd6 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dd7 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003dd8 00007378 Tue Jul 11 2017 06:53:04 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a5d: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003ddd 00007378 Tue Jul 11 2017 06:53:05 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dde 00007378 Tue Jul 11 2017 06:53:05 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003ddf 00007378 Tue Jul 11 2017 06:53:05 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003de0 00007378 Tue Jul 11 2017 06:53:05 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003de1 00007378 Tue Jul 11 2017 06:53:05 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003de2 00007378 Tue Jul 11 2017 06:53:06 -07:00 [kern_mgwd:info:4103] 0x826e90200: 8603e80000000a71: DEBUG: VOPL::CreateJunction: JobId = 43a56bc0-6640-11e7-874a-000c2964495e
+00000002.00003de3 00007378 Tue Jul 11 2017 06:53:06 -07:00 [kern_mgwd:info:4103] 0x826e90200: 8603e80000000a71: ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_local/next_point".
+00000002.00003de4 00007378 Tue Jul 11 2017 06:53:06 -07:00 [kern_mgwd:info:4103] 0x826e90200: 8603e80000000a71: ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_local/next_point".
+00000002.00003de5 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a70: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003de8 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a72: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003de9 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a72: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003dea 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a72: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003deb 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: VOPL::DeleteJunction: JobId = 448903a6-6640-11e7-874a-000c2964495e
+00000002.00003def 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003df0 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003df1 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+00000002.00003df2 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683c700)]: Tran: application aborting: TID <1,2467,2467> 'nfs_servers modify', flags 0.
+00000002.00003df3 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003df4 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683c700)]: Tran: application aborting: TID <1,2468,2468> 'job_manager job enqueue unique', flags 0.
+00000002.00003df5 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003df6 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003df7 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+00000002.00003df8 00007378 Tue Jul 11 2017 06:53:07 -07:00 [kern_mgwd:info:4103] 0x82683c700: 8603e80000000a73: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003df9 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a72: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dfc 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003dfd 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003dfe 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003dff 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e00 00007378 Tue Jul 11 2017 06:53:08 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e04 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: VOPL::CreateJunction: JobId = 454e4df2-6640-11e7-874a-000c2964495e
+00000002.00003e07 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e08 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e09 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+00000002.00003e0a 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x826838b00)]: Tran: application aborting: TID <1,2469,2469> 'nfs_servers modify', flags 0.
+00000002.00003e0b 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e0c 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x826838b00)]: Tran: application aborting: TID <1,2470,2470> 'job_manager job enqueue unique', flags 0.
+00000002.00003e0d 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e0e 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e0f 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e10 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+00000002.00003e11 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a84: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e12 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e13 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e14 00007378 Tue Jul 11 2017 06:53:09 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a83: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e17 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e18 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e19 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e1a 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volAccessType
+00000002.00003e1b 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e1c 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e1d 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e1e 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e1f 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e20 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e21 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e22 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a95: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e25 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e26 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e27 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e28 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volAccessType
+00000002.00003e29 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e2a 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e2b 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e2c 00007378 Tue Jul 11 2017 06:53:10 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e2d 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e2e 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e2f 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e30 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a97: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e32 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 86ffff0000000100: ERR: rdb_tran_glue: job_record_data: modified 1 out of 2 rows that did not change the database - unnecessary transaction for label=job_manager job_sched check claimable
+00000002.00003e34 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e35 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e36 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e37 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e38 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e39 00007378 Tue Jul 11 2017 06:53:11 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000a9c: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 2858 failed to get dsid
+00000002.00003e3a 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000aa0: DEBUG: VOPL::CreateJunction: JobId = 472cd8fe-6640-11e7-874a-000c2964495e
+00000002.00003e3b 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000aa0: ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/fv".
+00000002.00003e3c 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000aa0: ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/fv".
+00000002.00003e3d 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000a9f: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e40 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000aa2: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e41 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000aa2: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e42 00007378 Tue Jul 11 2017 06:53:12 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000aa2: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e43 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: VOPL::DeleteJunction: JobId = 47ffa36f-6640-11e7-874a-000c2964495e
+00000002.00003e47 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e48 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e49 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e4a 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e4b 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e4c 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+00000002.00003e4d 00007378 Tue Jul 11 2017 06:53:13 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000aa3: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e51 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000aa2: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e54 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e55 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e56 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e57 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e58 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e59 00007378 Tue Jul 11 2017 06:53:14 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: VOPL::CreateJunction: JobId = 48c854bb-6640-11e7-874a-000c2964495e
+00000002.00003e5a 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: WARNING: VOPL::DbladeZapiServerConnection:  volJunctionCreate 7141 Retrying create on member 1040, not 0x0000040f
+00000002.00003e5b 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: ERR: VOPL::junction: junction: The Create Junction operation will be automatically performed against a different FlexGroup constituent volume.
+00000002.00003e5e 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e5f 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e60 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e61 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e62 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e63 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e64 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+00000002.00003e65 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x826838b00: 8603e80000000ab9: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e66 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e67 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e68 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ab8: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e6b 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003e6c 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot create)
+00000002.00003e6d 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot create)
+00000002.00003e6e 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003e6f 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot create, 00000000-0000-0000-0000-000000000000)
+00000002.00003e70 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003e71 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]   row 0:
+00000002.00003e72 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]      vs: vs0
+00000002.00003e73 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]     vol: snap_test_fg
+00000002.00003e74 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]      op: snapshot create
+00000002.00003e75 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]      id: 499a15b0-6640-11e7-874a-000c2964495e
+00000002.00003e76 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]      ts: 7/11/2017 06:53:15
+00000002.00003e77 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103]     job: 00000000-0000-0000-0000-000000000000
+00000002.00003e78 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot create)
+00000002.00003e79 00007378 Tue Jul 11 2017 06:53:15 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+00000002.00003e7a 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acb: DEBUG: OLV::ConflictOps: endOp purge OK
+00000002.00003e7d 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e7e 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e7f 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e80 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e81 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e82 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x828fe8100: 8603e80000000acd: DEBUG: VOPL::CreateJunction: JobId = 49f75b08-6640-11e7-874a-000c2964495e
+00000002.00003e83 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x828fe8100: 8603e80000000acd: ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_remote/orig_point".
+00000002.00003e84 00007378 Tue Jul 11 2017 06:53:16 -07:00 [kern_mgwd:info:4103] 0x828fe8100: 8603e80000000acd: ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/subdir_remote/orig_point".
+00000002.00003e85 00007378 Tue Jul 11 2017 06:53:17 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000acc: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e88 00007378 Tue Jul 11 2017 06:53:17 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ace: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e89 00007378 Tue Jul 11 2017 06:53:17 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ace: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003e8a 00007378 Tue Jul 11 2017 06:53:17 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ace: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003e8b 00007378 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: VOPL::DeleteJunction: JobId = 4ac44056-6640-11e7-874a-000c2964495e
+00000002.00003e8f 00007378 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e90 00007378 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e91 00007378 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+00000002.00003e92 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x828fe8600)]: Tran: application aborting: TID <1,2483,2483> 'nfs_servers modify', flags 0.
+00000002.00003e93 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e94 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x828fe8600)]: Tran: application aborting: TID <1,2484,2484> 'job_manager job enqueue unique', flags 0.
+00000002.00003e95 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e96 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003e97 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_unmount_method> OBJECT NAME <volume>
+00000002.00003e98 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000acf: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003e99 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000ace: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e9c 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003e9d 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003e9e 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003e9f 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003ea0 00007396 Tue Jul 11 2017 06:53:18 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ea4 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: VOPL::CreateJunction: JobId = 4b8f957e-6640-11e7-874a-000c2964495e
+00000002.00003ea5 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: WARNING: VOPL::DbladeZapiServerConnection:  volJunctionCreate 7141 Retrying create on member 1040, not 0x0000040f
+00000002.00003ea6 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: ERR: VOPL::junction: junction: The Create Junction operation will be automatically performed against a different FlexGroup constituent volume.
+00000002.00003ea9 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003eaa 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003eab 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: ERR: rdb_tran_glue: nfs_servers: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=nfs_servers modify
+00000002.00003eac 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683b800)]: Tran: application aborting: TID <1,2485,2485> 'nfs_servers modify', flags 0.
+00000002.00003ead 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003eae 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] A [src/rdb/TM.cc 860 (0x82683b800)]: Tran: application aborting: TID <1,2486,2486> 'job_manager job enqueue unique', flags 0.
+00000002.00003eaf 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003eb0 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003eb1 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: CRS is not capable, or replication not required. Skipping pre/post operation. This instance will not be replicated
+00000002.00003eb2 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Context ID <0> Context on Method Iterator Flag <0> TABLE NAME <volume_synthetic_mount_method> OBJECT NAME <volume>
+00000002.00003eb3 00007396 Tue Jul 11 2017 06:53:19 -07:00 [kern_mgwd:info:4103] 0x82683b800: 8603e80000000ae0: DEBUG: CRS_SMDB_REPLICATED_OBJECT: Local call to check for crs replication
+00000002.00003eb4 00007396 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eb5 00007396 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003eb6 00007396 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000adf: DEBUG: OLV::VolumeCreate: src/olv_volume_create.cc 363: Setting vsid 3 for msid 2158432248
+00000002.00003eb9 00007397 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003eba 00007397 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: enter checkOp(vs0, snap_test_fg, snapshot restore)
+00000002.00003ebb 00007397 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: checkOp passed (vs0, snap_test_fg, snapshot restore)
+00000002.00003ebc 00007397 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003ebd 00007397 Tue Jul 11 2017 06:53:20 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: enter beginOp(vs0, snap_test_fg, snapshot restore, 00000000-0000-0000-0000-000000000000)
+00000002.00003ebe 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000af2: WARNING: VOPL::DbladeZapiServerConnection: Unavailable volumes returned by D-Blade volName: snap_test_fg__0004, vsUUID: b3493c6b-663b-11e7-8749-000c2964495e UUID: d8b67b32-663d-11e7-a028-000c29589841 Error: 13158.
+00000002.00003ebf 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: olv_conflict_ops dump:
+00000002.00003ec0 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]   row 0:
+00000002.00003ec1 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]      vs: vs0
+00000002.00003ec2 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]     vol: snap_test_fg
+00000002.00003ec3 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]      op: snapshot restore
+00000002.00003ec4 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]      id: 4c62ff2a-6640-11e7-874a-000c2964495e
+00000002.00003ec5 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]      ts: 7/11/2017 06:53:20
+00000002.00003ec6 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103]     job: 00000000-0000-0000-0000-000000000000
+00000002.00003ec7 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: enter endOp(vs0, snap_test_fg, snapshot restore)
+00000002.00003ec8 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: endOp found oldest lock, attempting to purge
+00000002.00003ec9 000073a5 Tue Jul 11 2017 06:53:21 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af0: DEBUG: OLV::ConflictOps: endOp purge OK
+00000002.00003ed0 000074dd Tue Jul 11 2017 06:53:52 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af4: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Internal Error
+00000002.00003ed1 000074dd Tue Jul 11 2017 06:53:52 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000af2: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Internal Error
+00000002.00003ed2 000074dd Tue Jul 11 2017 06:53:52 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000af2: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 2858 failed to get dsid
+00000002.00003ed4 000074dd Tue Jul 11 2017 06:53:52 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ed5 000074dd Tue Jul 11 2017 06:53:52 -07:00 [kern_mgwd:info:4103] 0x82683cc00: 8603e80000000af2: WARNING: VOPL::DbladeZapiServerConnection: Not found volume <b3493c6b-663b-11e7-8749-000c2964495e, snap_test_fg__0004> in cache for: 172.31.104.133 _isReachable:true volumeList is empty _lastVserverName:vs0 _lastVolName:snap_test_fg__0004
+00000002.00003ed6 000074dd Tue Jul 11 2017 06:53:53 -07:00 [kern_mgwd:info:4103] 0x82a063a00: 86ffff000000010f: ERR: rdb_tran_glue: job_record_data: modified 1 out of 1 rows that did not change the database - unnecessary transaction for label=job_manager job tx loop
+00000002.00003ed7 00007611 Tue Jul 11 2017 06:54:22 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Internal Error
+00000002.00003ed8 00007611 Tue Jul 11 2017 06:54:22 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3481 failed to get is-flexgroup-qtree-enabled flag
+00000002.00003ed9 00007611 Tue Jul 11 2017 06:54:22 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: WARNING: VOPL::DbladeZapiServerConnection:  fillVolAttrs 3486 failed to get remote-cache-used
+00000002.00003eda 00007611 Tue Jul 11 2017 06:54:22 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV::VolumeShow: src/tables/volume_template.h 1343: state returned from dblade is 0 for volume fv in vserver vs0.
+00000002.00003edb 00007611 Tue Jul 11 2017 06:54:22 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003edc 00007611 Tue Jul 11 2017 06:54:23 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000af9: DEBUG: VOPL::CreateJunction: JobId = 7189667a-6640-11e7-874a-000c2964495e
+00000002.00003edd 00007611 Tue Jul 11 2017 06:54:23 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ede 0000761b Tue Jul 11 2017 06:54:24 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003edf 00007626 Tue Jul 11 2017 06:54:25 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee0 00007630 Tue Jul 11 2017 06:54:26 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee1 0000763a Tue Jul 11 2017 06:54:27 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee2 00007644 Tue Jul 11 2017 06:54:28 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee3 0000764e Tue Jul 11 2017 06:54:29 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee4 00007658 Tue Jul 11 2017 06:54:30 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee5 0000766c Tue Jul 11 2017 06:54:31 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee6 0000766c Tue Jul 11 2017 06:54:32 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee7 00007677 Tue Jul 11 2017 06:54:33 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee8 00007681 Tue Jul 11 2017 06:54:34 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ee9 0000768b Tue Jul 11 2017 06:54:36 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eea 00007695 Tue Jul 11 2017 06:54:37 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eeb 0000769f Tue Jul 11 2017 06:54:38 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eec 000076a9 Tue Jul 11 2017 06:54:39 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eed 000076b3 Tue Jul 11 2017 06:54:40 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eee 000076c8 Tue Jul 11 2017 06:54:41 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003eef 000076c8 Tue Jul 11 2017 06:54:42 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef0 000076dc Tue Jul 11 2017 06:54:43 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef3 000076dc Tue Jul 11 2017 06:54:44 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef4 000076e6 Tue Jul 11 2017 06:54:45 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef5 000076f0 Tue Jul 11 2017 06:54:46 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef6 000076fa Tue Jul 11 2017 06:54:47 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef7 00007704 Tue Jul 11 2017 06:54:48 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef8 0000770f Tue Jul 11 2017 06:54:49 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003ef9 00007719 Tue Jul 11 2017 06:54:50 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003efa 00007723 Tue Jul 11 2017 06:54:51 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003efb 00007742 Tue Jul 11 2017 06:54:52 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003f0b 00007742 Tue Jul 11 2017 06:54:53 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003f0c 00007742 Tue Jul 11 2017 06:54:53 -07:00 [kern_mgwd:info:4103] 0x82a311600: 8003e80000000af5: DEBUG: OLV: Checking vserver:vs0, volume:fv for volume type
+00000002.00003f0d 00007742 Tue Jul 11 2017 06:54:53 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000af9: WARNING: VOPL::DbladeZapiServerConnection:  getFileInodeInfo 7288 Internal Error
+00000002.00003f0e 00007742 Tue Jul 11 2017 06:54:53 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000af9: ERR: VOPL::junction: junction: Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+00000002.00003f0f 00007742 Tue Jul 11 2017 06:54:53 -07:00 [kern_mgwd:info:4103] 0x828fe8600: 8603e80000000af9: ERR: VOPL::CreateJunction: job_manager::job_state_t createJunctJob::create():198 - Not calling synthetic mount, error Volume "fv" on Vserver "vs0" is mounted at "/snap_test_fg/(fv)".
+
